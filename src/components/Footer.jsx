@@ -2,8 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#DE972F] full-w h-11 mx-auto py-auto px-4 text-[#DE402F]'>
-      Project 
+    <div className='bg-[#DE972F] grid grid-cols-1 mx-auto py-10 px-3 gap-4 text-[#DE402F]'>
+      <h1 className='text-2xl'>About this project</h1>
+      This site has been created with the help of TailwindCSS, ReactJS and many others useful libraries and packages
     </div>
   )
 }
