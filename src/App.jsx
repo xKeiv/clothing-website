@@ -1,25 +1,22 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import Carousel from './components/Carousel';
+import Home from "./components/Home";
+import Pants from "./components/Pants";
+import Shirts from "./components/Shirts";
+
 import { BrowserRouter as Router,
   Routes,
   Route,
   Link} from 'react-router-dom'
 
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <Navbar />
-        <Carousel />
-        <Hero />
-        <Footer />
-      </div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="shirt" element={<Shirts />} />
+        <Route path="pants" element={<Pants />} />
+      </Routes>
     </>
   )
 }

@@ -5,7 +5,6 @@ const Hero = () => {
     <div className='text-[#DE402F]'>
       <div className='text-5xl text-center font-bold p-4 m-4'>Why are we <span className='text-[#CEDE2F] animate-pulse'>different</span>?</div>
       <div className='grid grid-cols-4 gap-2'>
-
           <div className="p-1 m-1 text-justify tracking-tight">
             <h1 className='text-xl font-bold'>Quality over quantity.</h1>
             <p>
